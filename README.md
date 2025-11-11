@@ -45,6 +45,7 @@ And setup packet.json
    ```
 Command for their installation:
     `npm i -D @types/node @types/node-telegram-bot-api typescript`
+    
 10. Use command "tsc -init"
 11. Replace __tsconfig.json__ with offered by me
 12. Check file __process.env__ in the root of your project. Add here your **bot token**, **tron api key** and **tron private key** to the highlighted positions.
