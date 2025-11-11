@@ -1,0 +1,10 @@
+{
+  "support_tag": "@here_should_be_tag",
+  "comission_fee": 3,
+  "wallet": {
+    "address": "TVjXV5uqkHZ8adaeoZZqdSDREbu7hJXxUU",
+    "publicKey": "0482C014D1520065B93A96ED630D4073B36C6FCA45A88EC320A24C9055527FAE5AED80BC584EB0B5B26E028E01BA319752DAEA93F256DDEB5FDE5C37FF75D062FD"
+  },
+  "network": "https://api.trongrid.io",
+  "usdt_contract_adress": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t"
+}

@@ -1,0 +1,13 @@
+{
+    "start": "✌️ Hello, it\\'s your *assure bot*\\.\n💸Here you can initiate, receive and enjoy some USDT transactions __\\(TRC\\-20\\)__",
+    "buttons": {
+        "menu": "👉 Menu",
+        "support": "👉 Support",
+        "back": "🏘 Go Home",
+        "create_transaction": "➕ Create transaction",
+        "cancel": "❌ Cancel"
+    },
+
+    "menu": "Well\\, here is a *main menu*\\.\n\nThat is your 🆔\\: `{{id}}`\nIt is used for receiving transactions so you may share it at ease\\.\n\n🤏 Choose option below to continue\\:",
+    "support": " 😭Sorry\\, but for now we don\\'t have a support\\.\n 🤝We have to *pay for support* but now our project doesn\\'t make a profit\\.\n\nIf you would like to be an investor, you could write here\\: {{support_tag}}"
+}

@@ -1,0 +1,60 @@
+{
+    "get_receiver_id": {
+        "request": "Okay\\, send me ID of user please\\, which will *receive* crypto\\.",
+        "success": "✅ Great\\, the receiver ID was added successfully\\!\n🔷ID \\= `{{id}}`"
+    },
+
+    "get_transaction_sum": {
+        "request": "💬Now\\, enter the *sum* of transaction please\\. In USDT obviously",
+        "success": "✅ Great\\, the transaction sum was added successfully\\!\n🔷Sum \\= {{sum}}"
+    },
+
+    "proceedings": {
+        "proceeding_receiver": "Please wait, 🆔 of user which you have sent is validating...",
+        "proceeding_sum": "Please wait, 💰 the sum of transaction which you have entered is validating...",
+        "money_back_permission": "⏳ Please wait, we are asking the receiver..."
+    },
+
+    "errors": {
+        "is_not_number": "❌ Error\\, you have to provide a *number*\\.\n\nPlease provide correct value❗️",
+        "is_not_ceil": "❌Error\\, you have to provide a *ceil* number\\.\n\nPlease provide correct value❗️",
+        "wrong_length": "❌Error\\, the *length* of your number is unrealistic\\.\n\nPlease provide correct value❗️",
+        "too_long_float": "❌Error\\, your number has to include *no more than 2* float digits\\.\n\nPlease provide correct value❗️",
+        "is_null": "😠 Are you joking\\?\n\n🙏 Please enter the *valid* number\\.\\.\\."
+    },
+
+    "payment": {
+        "request": "Well, let\\'s move ahead\\.\n\n💵 Your sum is {{sum}}\n🪙My comission fee is {{comission}}%\n📤 Send me *{{total_sum}}* USDT __\\(Trc 20\\)__ in the *Tron* network\\.\n\nMy address is \\- `{{address}}`\n❗️And mention in notes transaction id which is \\- `{{id}}`❗️\nOnly ID\\, nothing else\n\n🫰 Remember\\, that if you want to get your money __back__\\, the comission *WON'T* be returned\n\n👇After transaction click the button",
+
+        "buttons": {
+            "done": "✅ Done",
+            "cancel": "❌ I have changed my mind, cancel the operation",
+            "problem": "😰 Something went wrong"
+        },
+
+        "error": "😢 Sorry, but we can't see correct transaction. ❗️ Please doublecheck all details and try again...\n\nYou can text our support if necessary.\n🧑‍💻 Support: {{support}}",
+        "successful_income": "✅ Great\\, we have got your crypto correctly\\.\n🌍 Please now ask receiver to transfer the product\\, we have sent him or her a message too\\."
+    },
+
+    "transaction_cancelled": "🗑Your transaction was cancelled\\!\n🤪Look forward to our joint cooperation\\.",
+    "transaction_error": "🤬 Don\\'t worry\\, stop panic\\!\n\n💬 Please text our support\\: {{support}}\n⚠️Don\\'t forget to mention 🆔 of your transaction\\: `{{transaction_id}}`",
+
+    "agreement": {
+        "inform_sender": "⏳ For now we are waiting for agreement from the receiver\\. Hang in there please\\.\\.\\.",
+        "approved": "✅ Great, receiver has *approved* your offer\\, we are clarifying some info\\. 🧐\n\n⏳ Please wait\\.\\.\\.",
+        "declined": "🥺 Sorry\\, the receiver has __declined__ your offer\\. Sorry but proceeding transaction has *stopped*❗️"
+    },
+
+    "product": {
+        "buttons": {
+            "success": "✅ I have got the product correctly",
+            "cancel": "💸 Get money back"
+        },
+
+        "error": "😰 Hm\\, something went wrong, please try again!",
+
+        "money_transfered": "✅ The receiver has got your payment __successfully__\\!\nTransaction 🆔 was `{{id}}`\n\n😀 Looking forward to new cooperation\\!",
+        "money_returned": "😞 Okay, we have sent you money back. Hope the next our deal will be finished 👌",
+        "money_return_declined": "🥺 Sorry, but money back operation was *declined* by the receiver\\. 💬 Please contact with him directly\\.\\.\\.\n\n👇 You can choose options below\\:"
+    }
+}

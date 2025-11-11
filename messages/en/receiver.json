@@ -1,0 +1,40 @@
+{
+    "inform": {
+        "text": "👋 Hello\\, you have received a payment offer from the user\\: `{{sender}}`\\. 👤\n💸 Transaction sum is *{{sum}} USDT*\nComission is covered by the sender\\.\n\nPlease confirm ✅ or decline ❌ this transaction\\.",
+        "confirm_options": {
+            "yes": "✅ Yes, I agree",
+            "no": "❌ No, I disagree"
+        },
+        "not_delivered": "😭 Sorry\\, but info wasn\\'t __delivered__\\!\nPlease convince that your receiver has an *active chat* with bot\\(me\\)\\.\n\n👇 Then try again",
+        "reinform_option": "🔄 Try again",
+        "reinform_failed": "Sorry, reinform was failed! Check all conditions and try again. Or use our support"
+    },
+
+    "offer": {
+        "approved": "✅ Great\\, transaction offer was *approved*\\!\n\nTranasaction ID is `{{id}}`",
+        "declined": "😭 Okay, the offer was *declined*\\.\n\nTransaction ID was `{{id}}`"
+    },
+
+    "payment": {
+        "adress": {
+            "request": "💬 Now\\, please send us the adress where crypto should be sent finally\\.\n☑️ We imperatively recommend to doublecheck everything before sending\\!",
+            "proceeding_message": "⏳ Please wait, the adress which you have entered is validating...",
+            "not_adress": "❌ Error \\| The text you have sent is not an adress\\! 💬 Please send the right one",
+            "success": "✅ Your adress was *successfully* accepted\\!\nAdress is `{{adress}}`\n\n⏳ We are waiting for the payment from sender\\. Hope for your patience\n\nPlease __*don't*__ transfer the product *untill you get a message* from us\\!"
+        },
+
+        "inform": "🖐 Hi\\, I have a great news for you\\!\n\n✅ Money has come to me __successfully__\\! 🫰\nTransaction ID \\= `{{id}}`\n\n😀 You can *correctly* transfer your product\\.\\.\\.",
+        "done": "💸 We have sent you the payment\\. 🪪 Please check it and use the contact of our support if necessary\\.\nTransaction 🆔 was `{{id}}`\n\nWe hope that no problem exist\n\n🤖 Looking forward to next cooperation",
+        "cancelled": "Hey, sender has cancelled transaction and asked for the "
+    },
+    
+    "money_back": {
+        "request": "🧐 Hey, sender wants to __cancel__ the transaction and get his or her money back\\. Have you *already* transfered the product\\?\n\nTransaction ID is `{{id}}`",
+        "buttons": {
+            "approve": "No, I haven't. ✅ Approve returning",
+            "decline": "Yes, I have. ❌ Decline returning"
+        },
+        "approved": "✅ Great\\, money back operation was *approved*\\!\n\nTranasaction ID is `{{id}}`",
+        "declined": "😭 Okay, money back operation was *declined*\\.\n\nTransaction ID was `{{id}}`"
+    }
+}
