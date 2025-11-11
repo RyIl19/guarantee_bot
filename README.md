@@ -38,13 +38,15 @@ And setup packet.json
 ### Command for their installation:
     `npm i axios dotenv i18next i18next-fs-backend node-telegram-bot-api tronweb`
 8) Install Developer libraries:
+   ``` json
     "**@types/node**": "^24.9.2",
     "**@types/node-telegram-bot-api**": "^0.64.12",
     "**typescript**": "^5.9.3"
+   ```
 Command for their installation:
     `npm i -D @types/node @types/node-telegram-bot-api typescript`
-9) Use command "tsc -init"
-10) Replace __tsconfig.json__ with offered by me
+10) Use command "tsc -init"
+11) Replace __tsconfig.json__ with offered by me
 9) Check file __process.env__ in the root of your project. Add here your **bot token**, **tron api key** and **tron private key** to the highlighted positions.
 10) Add necessary information to config.json:
     1. Support tag
