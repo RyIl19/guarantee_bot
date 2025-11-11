@@ -7,25 +7,25 @@ The only condition I have is to mention me in your production version and `packa
 ---
 
 ## 🔍 Some tips and rules, how to use this bot:
-1) Please don't use this bot as a real ready production project, because there is no connected database and admin panel system.
-2) It is done in little period of time so here might be some bugs, mistakes etc.
-3) The `tsconfig.json` file includes Typescript settings used to build this bot.
+1. Please don't use this bot as a real ready production project, because there is no connected database and admin panel system.
+2. It is done in little period of time so here might be some bugs, mistakes etc.
+3. The `tsconfig.json` file includes Typescript settings used to build this bot.
 
 ---
 
 ## 🚀 How to use:
-1) Download all packages to your device.
-2) Open your IDE
-3) Write in terminal:
+1. Download all packages to your device.
+2. Open your IDE
+3. Write in terminal:
     `npm init`
 And setup packet.json
-4) Add in package.json scripts:
+4. Add in package.json scripts:
     ``` json
     "build": "tsc",
     "start": "node dist/index.js"
     ```
-5) Check that you have folder dist in the root of your project
-6) Install next libraries:
+5. Check that you have folder dist in the root of your project
+6. Install next libraries:
     ``` json
     "**axios**": "^1.13.2",
     "**dotenv**": "^17.2.3",
@@ -37,7 +37,7 @@ And setup packet.json
 
 ### Command for their installation:
     `npm i axios dotenv i18next i18next-fs-backend node-telegram-bot-api tronweb`
-8) Install Developer libraries:
+8. Install Developer libraries:
    ``` json
     "**@types/node**": "^24.9.2",
     "**@types/node-telegram-bot-api**": "^0.64.12",
@@ -45,19 +45,19 @@ And setup packet.json
    ```
 Command for their installation:
     `npm i -D @types/node @types/node-telegram-bot-api typescript`
-10) Use command "tsc -init"
-11) Replace __tsconfig.json__ with offered by me
-9) Check file __process.env__ in the root of your project. Add here your **bot token**, **tron api key** and **tron private key** to the highlighted positions.
-10) Add necessary information to config.json:
+10. Use command "tsc -init"
+11. Replace __tsconfig.json__ with offered by me
+12. Check file __process.env__ in the root of your project. Add here your **bot token**, **tron api key** and **tron private key** to the highlighted positions.
+13. Add necessary information to config.json:
     1. Support tag
     2. Comission fee in percents e.g. *3* is 3%, *15* is 15%
     3. Wallet address where you want to get comission fee and publick key add only if you have already added private key
-11) Setup your bot in Telegram, you can use logos and description from **`bot_profile`** folder.
+14. Setup your bot in Telegram, you can use logos and description from **`bot_profile`** folder.
 
-12) Execute in terminal:
+15. Execute in terminal:
     `npm run build`
     `npm start`
-13) 🎉 Enjoy bot
+16. 🎉 Enjoy bot
 
 ## P.S.
 Feel free to commit, share and modify code.
