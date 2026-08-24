@@ -6,7 +6,7 @@ import { transactions } from "../../transactions.js";
 import shieldText from "../../../utils/shieldText.js";
 import Receiver from "../../../utils/classes/Receiver.js";
 import roundSum from "../../../utils/roundSum.js";
-import config from "../../../../config.json" assert { type: "json" };
+import config from "../../../../config.json" with { type: "json" };
 
 const state : exportedState = {
     name: "GetTransactionSum",

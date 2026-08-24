@@ -5,7 +5,8 @@ interface Transaction {
     total_sum?: number, // In usdt!!!
     time?: number, //Timestamp
     receiver_adress?: string,
-    sender_adress?: string
+    sender_adress?: string,
+    processing_status: boolean
 }
 
 export const transactions = new Map<string, Transaction>();

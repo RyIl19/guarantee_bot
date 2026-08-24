@@ -30,5 +30,4 @@ if (!tronApiKey) throw new Error("❌ Tron api key wasn't found!");
 const tronPrivateKey = process.env.TRON_PRIVATE_KEY;
 
 const tron = await Tron.init(tronApiKey, tronPrivateKey);
-await Tron.sendMoneyToReceiver(tron, "asdasd");
 export { bot, text, tron };

@@ -1,6 +1,6 @@
 import { TronWeb } from "tronweb";
 import fs from "fs";
-import config from "../../../config.json" assert { type: "json" };
+import config from "../../../config.json" with { type: "json" };
 import axios, { AxiosResponse } from "axios";
 import { transactions } from "../../bot/transactions.js";
 

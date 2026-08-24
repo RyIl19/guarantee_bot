@@ -5,7 +5,7 @@ import isMessage from "../../../utils/isMessage.js";
 import { transactions } from "../../transactions.js";
 import shieldText from "../../../utils/shieldText.js";
 import roundSum from "../../../utils/roundSum.js";
-import config from "../../../../config.json" assert { type: "json" };
+import config from "../../../../config.json" with { type: "json" };
 import Tron from "../../../utils/classes/Tron.js";
 
 const state : exportedState = {

@@ -1,7 +1,7 @@
 import Tron from "../../../utils/classes/Tron.js";
 import { bot, text, tron } from "../../index.js";
 import states from "../../states.js";
-import config from "../../../../config.json" assert { type: "json" };
+import config from "../../../../config.json" with { type: "json" };
 import { transactions } from "../../transactions.js";
 import shieldText from "../../../utils/shieldText.js";
 

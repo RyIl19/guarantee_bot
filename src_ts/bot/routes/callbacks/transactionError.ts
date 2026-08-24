@@ -1,5 +1,5 @@
 import { bot, text } from "../../index.js";
-import config from "../../../../config.json" assert { type: "json" };
+import config from "../../../../config.json" with { type: "json" };
 import shieldText from "../../../utils/shieldText.js";
 
 const callback : exportedCallback = {

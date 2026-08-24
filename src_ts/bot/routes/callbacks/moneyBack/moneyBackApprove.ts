@@ -7,13 +7,17 @@ const callback : exportedCallback = {
     async exec(query, [ transaction_id ]) {
         if(!query.message || !query.message.from) return;
         text.setDefaultNamespace("transactions");
-
-        //Send money to receiver
-        const transactionSent = await Tron.sendMoneyBackToSender(tron, transaction_id);
-
         //Get transaction
         const transaction = transactions.get(transaction_id);
         if (!transaction) return console.log(`❌ Error | Transaction wasn't found! Transaction ID = ${transaction_id}`);
+        if (transaction.processing_status) return console.log("❌ Error | Transaction is already processing!");
+        transactions.set(transaction_id, {
+            ...transaction,
+            processing_status: true
+        });
+
+        //Send money to receiver
+        const transactionSent = await Tron.sendMoneyBackToSender(tron, transaction_id);
 
         if (transactionSent) {
             //Inform user
@@ -55,6 +59,10 @@ const callback : exportedCallback = {
             })
                 .catch(err => console.log("❌ Error | PMoney back receiver message wasn't sent! Reason = ", err));
         } else {
+            transactions.set(transaction_id, {
+                ...transaction,
+                processing_status: false
+            });
             //Inform user
             await bot.answerCallbackQuery(query.id, {
                 text: text.t("product.error"),
