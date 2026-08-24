@@ -46,7 +46,8 @@ const state : exportedState = {
         const transactionID = getRandomString(10)
         transactions.set(transactionID, {
             sender: message.from.id,
-            receiver: +message.text
+            receiver: +message.text,
+            processing_status: false
         });
 
         await bot.editMessageText([
